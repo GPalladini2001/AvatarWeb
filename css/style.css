@@ -14,13 +14,10 @@
     background-color: #fe832e;
 }
 
-main{
-    background-color: #ffe78e;
-}
-
 .navbar img {
     height: 80px;
 }
+
 .navbar ul{
     display: flex;
     list-style: none;
@@ -33,9 +30,12 @@ main{
     margin: 50px;
 }
 
+main{
+    background-color: #ffe78e;
+}
+
 .encabezado{
     margin: 0 auto;
-    font-size: 15px;
     background-color: #ffb55e;
     border-right: black 5px solid;
     border-left: black 5px solid;
@@ -44,7 +44,6 @@ main{
 
 .elementos{
     margin: 0 auto;
-    font-size: 15px;
     background-color: #ffb55e;
     border-right: black 5px solid;
     border-left: black 5px solid;
@@ -58,6 +57,11 @@ main{
     font-size: 60px;
 }
 
+.encabezado p{
+    font-size: 20px;
+    margin-left: 30px;
+}
+
 .elementos h2{
     margin-bottom: 30px;
     margin-top: 30px;
@@ -65,13 +69,8 @@ main{
     font-size: 60px;
 }
 
-.encabezado p{
-    font-size: 20px;
-    margin-left: 30px;
-}
-
 .elementos p{
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 30px;
 }
 

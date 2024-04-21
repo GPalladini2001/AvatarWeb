@@ -1,0 +1,25 @@
+.navbar-header{
+    background-color: $color-navbar;
+    border: black 5px solid;
+
+    .navbar-custom{
+        font-size: 20px;
+        background-color: $color-navbar;
+
+        .img-fluid{
+            height: 80px;
+        }
+
+        ul{
+            display: flex;
+            list-style: none;
+            align-items: center;
+            justify-content: center;
+
+            li a{
+            text-decoration: none;
+            margin: 50px;
+            }
+        }
+    }
+}
