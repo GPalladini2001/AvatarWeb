@@ -45,8 +45,10 @@ main{
 footer{
     font-size: $font-principal;
     background-color: $color-footer;
-    justify-content: space-around;
-    align-items: center;
+
+    nav{
+        display: flex;
+    }
 
     nav ul li a.nav-link{
         color: inherit !important;
